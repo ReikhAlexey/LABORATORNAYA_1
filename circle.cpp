@@ -9,8 +9,18 @@ int main() {
     cout << "Введите радиус окружности: ";
     cin >> r;
 
+    if (r < 0) {
+        cout << "Ошибка: радиус не может быть отрицательным!" << endl;
+        return 0;
+    }
+
     cout << "Введите угол сектора (в градусах): ";
     cin >> angle;
+
+    if (angle < 0) {
+        cout << "Ошибка: угол не может быть отрицательным!" << endl;
+        return 0;
+    }
 
     double circumference = 2 * PI * r;
     double area = PI * r * r;
