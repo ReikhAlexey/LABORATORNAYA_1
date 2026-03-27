@@ -4,6 +4,10 @@
 
 using namespace std;
 
+void calc_trapezoid() {
+
+}
+
 int main() {
     setlocale(LC_ALL, "ru_RU.UTF-8");
     int choice = 0;
