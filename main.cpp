@@ -5,8 +5,6 @@
 using namespace std;
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 void calc_trapezoid() {
     double a, b, c, d;
     cout << "\n--- Трапеция ---\n";
