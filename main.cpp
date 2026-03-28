@@ -6,6 +6,7 @@ using namespace std;
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 void calc_trapezoid() {
     double a, b, c, d;
     cout << "\n--- Трапеция ---\n";
@@ -80,6 +81,32 @@ void calc_triangle() {
     } else {
         cout << "Нет\n";
     }
+}
+
+
+void calc_circle() {
+    double r, angle;
+    const double PI = 3.141592653589793;
+    cout << "\n--- Окружность ---\n";
+    cout << "Введите радиус окружности: ";
+    cin >> r;
+    if (r < 0) {
+        cout << "Ошибка: радиус не может быть отрицательным!\n";
+        return;
+    }
+    cout << "Введите угол сектора (в градусах): ";
+    cin >> angle;
+    if (angle < 0) {
+        cout << "Ошибка: угол не может быть отрицательным!\n";
+        return;
+    }
+    double circumference = 2 * PI * r;
+    double area = PI * r * r;
+    double sector_area = (angle / 360.0) * PI * r * r;
+    cout << "Результаты:\n";
+    cout << "Длина окружности: " << circumference << "\n";
+    cout << "Площадь круга: " << area << "\n";
+    cout << "Площадь сектора: " << sector_area << "\n";
 }
 
 
