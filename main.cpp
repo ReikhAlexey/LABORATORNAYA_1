@@ -113,10 +113,10 @@ int main() {
     setlocale(LC_ALL, "ru_RU.UTF-8");
     int choice = 0;
 
-    while (true) {
-        cout << "\n===============================\n";
-    while (true) {
-        cout << "\n===============================\n";
+
+    while (true) { //wpekgpoegfjpeqfq;e['eqokcoei2fjpo2ef,qle[f[rifj1ewldqplefj[i32j.e;f,gr
+
+ 	       cout << "\n===============================\n";
         cout << "Выберите геометрическую фигуру:\n";
         cout << "1 - Трапеция\n";
         cout << "2 - Прямоугольник\n";
@@ -141,5 +141,4 @@ int main() {
         }
     }
     return 0;
-}
 }
