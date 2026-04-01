@@ -140,6 +140,6 @@ int main() {
             default: cout << "Неверный выбор. Попробуйте снова.\n";
         }
     }
-    return 0;
+    return 0;// gegeg
 }
 }
