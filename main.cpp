@@ -107,7 +107,7 @@ void calc_circle() {
 }
 
 
-int main() { //Коментарий
+int main() {
     std::cout << "Проект: Геометрические фигуры" << std::endl;
     setlocale(LC_ALL, "ru_RU.UTF-8");
     int choice = 0;
