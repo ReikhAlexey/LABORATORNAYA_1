@@ -114,8 +114,10 @@ int main() {
     int choice = 0;
 
 
-    while (true) { //wpekgpoegfjpeqfq;e['eqokcoei2fjpo2ef,qle[f[rifj1ewldqplefj[i32j.e;f,gr
 
+    while (true) { 
+
+    
  	       cout << "\n===============================\n";
         cout << "Выберите геометрическую фигуру:\n";
         cout << "1 - Трапеция\n";
