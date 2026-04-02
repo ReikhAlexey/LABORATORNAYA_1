@@ -55,3 +55,4 @@ bortyk1 	    Реализация функций для прямоугольни
 Хостинг репозитория: GitHub
 
 Среда разработки:Visual Studio, Visual Studio code, Редактор VIM
+
