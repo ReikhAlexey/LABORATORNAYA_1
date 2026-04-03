@@ -9,7 +9,7 @@ void calc_triangle() {
     double a, b, c;
     cout << "\n--- Треугольник ---\n";
     cout << "Введите стороны треугольника (a b c): ";
-    cin >> a >> b >> c;
+    cin >> a >> b >> c;// проверка сущ
     if (a + b <= c || a + c <= b || b + c <= a) {
         cout << "Ошибка: треугольник с такими сторонами не существует!\n";
         return;
@@ -67,6 +67,6 @@ int main() {
             default: cout << "Неверный выбор. Попробуйте снова.\n";
         }
     }
-    return 0;// gegeg
+    return 0;
 }
 
