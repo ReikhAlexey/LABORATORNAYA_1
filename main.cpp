@@ -30,7 +30,7 @@ void calc_trapezoid() {
     cout << "Периметр: " << a + b + c + d << "\n";
     cout << "Средняя линия: " << (a + b) / 2 << "\n";
     
-    // Формула площади: S = (a+b)/2 * √[c² - {((a-b)² + c² - d²)/(2(a-b))}²]
+    // Формула площади: S = (a+b)/2 * √[c² - {((a-b)² + c² - d²)/(2(a-b))}²] //Коментарий
     double term = (diff * diff + c * c - d * d) / (2.0 * diff);
     double area = ((a + b) / 2.0) * sqrt(c * c - term * term);
     
