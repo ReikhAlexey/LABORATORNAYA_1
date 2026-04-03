@@ -1,4 +1,4 @@
-#include <iostream>//оно существует
+#include <iostream>
 #include <cmath>
 #include <clocale>
 
@@ -9,7 +9,7 @@ void calc_triangle() {
     double a, b, c;
     cout << "\n--- Треугольник ---\n";
     cout << "Введите стороны треугольника (a b c): ";
-    cin >> a >> b >> c;// проверка сущ
+    cin >> a >> b >> c;
     if (a + b <= c || a + c <= b || b + c <= a) {
         cout << "Ошибка: треугольник с такими сторонами не существует!\n";
         return;
