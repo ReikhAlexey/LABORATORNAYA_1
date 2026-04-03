@@ -41,7 +41,7 @@ void calc_trapezoid() {
 void calc_rectangle() {
     double shir, dlin;
     cout << "\n--- Прямоугольник ---\n";
-    cout << "Введите ширину прямоугольника: "; //----------------------
+    cout << "Введите ширину прямоугольника: "; 
     cin >> shir;
     cout << "Введите длину прямоугольника: ";
     cin >> dlin;
@@ -63,7 +63,7 @@ void calc_triangle() {
     double a, b, c;
     cout << "\n--- Треугольник ---\n";
     cout << "Введите стороны треугольника (a b c): ";
-    cin >> a >> b >> c;// проверка сущ
+    cin >> a >> b >> c;
     if (a + b <= c || a + c <= b || b + c <= a) {
         cout << "Ошибка: треугольник с такими сторонами не существует!\n";
         return;
@@ -96,7 +96,7 @@ void calc_circle() {
     cin >> r;
     if (r < 0) {
         cout << "Ошибка: радиус не может быть отрицательным!\n";
-        return;//kfnjvlaejgiejgpq
+        return;
     }
     cout << "Введите угол сектора (в градусах): ";
     cin >> angle;
