@@ -13,7 +13,7 @@ void calc_circle() {
     cin >> r;
     if (r < 0) {
         cout << "Ошибка: радиус не может быть отрицательным!\n";
-        return;//kfnjvlaejgiejgpq
+	return;
     }
     cout << "Введите угол сектора (в градусах): ";
     cin >> angle;
